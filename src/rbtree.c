@@ -1,5 +1,5 @@
 #include "rbtree.h"
-#inclu <stdlib.h>
+#include <stdlib.h>
 
 rbtree *new_rbtree(void) {
   rbtree *p = (rbtree *)calloc(1, sizeof(rbtree));
